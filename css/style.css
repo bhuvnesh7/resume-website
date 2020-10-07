@@ -34,6 +34,10 @@ ul{
   margin-bottom:10px;
 }
 
+i {
+  padding-right: 1em;
+}
+
 /* Header **/
 header{
   background:#35424a;
@@ -118,8 +122,8 @@ header a:hover{
 #boxes .box{
   float:left;
   text-align: center;
-  width:30%;
-  padding:10px;
+  width:32%;
+  padding:5px;
 }
 
 #boxes .box img{
@@ -153,6 +157,7 @@ ul#stuff li{
   background:#e6e6e6;
 }
 
+/* Footer */
 footer{
   padding:20px;
   margin-top:20px;
@@ -161,7 +166,10 @@ footer{
   text-align: center;
 }
 
+
+
 /* Media Queries */
+
 @media(max-width: 768px){
   header #branding,
   header nav,
@@ -170,6 +178,7 @@ footer{
   #ribbon form,
   #boxes .box,
   article#main-col,
+  i,
   aside#sidebar{
     float:none;
     text-align:center;
