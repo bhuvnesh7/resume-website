@@ -34,7 +34,7 @@
       </div>
     </header>
 
-
+    <div class = "faders">
     <section id="main">
       <div class="container">
         <article id="main-col">
@@ -46,24 +46,31 @@
           <div class="dark" class="container">
             <h3>Send me a message</h3>
             <form class="quote">
+              <div class="response"></div>
   						<div>
   							<label>Name</label><br>
-  							<input type="text" placeholder="Name">
+  							<input type="text" id="name" placeholder="Name">
   						</div>
   						<div>
   							<label>Email</label><br>
-  							<input type="email" placeholder="Email Address">
+  							<input type="email" id="email" placeholder="Your Email Address">
   						</div>
   						<div>
   							<label>Message</label><br>
-  							<textarea placeholder="Message"></textarea>
+  							<textarea id="msg" placeholder="Message"></textarea>
   						</div>
   						<button class="button_1" type="submit">Send</button>
 					</form>
           </div>
         </aside>
       </div>
+
+
+
+
+
     </section>
+    </div>
 
     <footer>
       <!-- Socials -->
@@ -74,6 +81,12 @@
       </div>
     </footer>
 
-    
+    <div id = "btns">
+    <button onclick="botFunction()" id="botBtn" title="Go to bottom"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>  
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+    </div>
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

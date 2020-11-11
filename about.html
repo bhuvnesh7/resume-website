@@ -34,7 +34,7 @@
       </div>
     </header>
 
-
+    <div class = "faders">
     <section id="main">
       <div class="container">
         <article id="main-col">
@@ -59,7 +59,7 @@
             <li>
               <h3>Python</h3>
               <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:70%;">
+                <div class="progress-bar progress-bar-success progress-bar-striped progress-bar-animated" style="width:70%;">
                   70%
                 </div>
               </div>
@@ -70,7 +70,7 @@
             <li>
               <h3>C++</h3>
               <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:60%;">
+                <div class="progress-bar progress-bar-success progress-bar-striped progress-bar-animated" style="width:60%;">
                   60%
                 </div>
               </div>
@@ -81,7 +81,7 @@
             <li>
               <h3>NumPy</h3>
               <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:60%;">
+                <div class="progress-bar progress-bar-success progress-bar-striped progress-bar-animated" style="width:60%;">
                   60%
                 </div>
               </div>
@@ -92,7 +92,7 @@
             <li>
               <h3>Flask</h3>
               <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:50%;">
+                <div class="progress-bar progress-bar-success progress-bar-striped progress-bar-animated" style="width:50%;">
                   50%
                 </div>
               </div>
@@ -124,8 +124,12 @@
           <img src="./img/avatar.png">
         </aside>
       </div>
-    </section>
 
+
+
+
+    </section>
+    </div>
     
     <footer>
       <!-- Socials -->
@@ -135,7 +139,13 @@
         <a href="#" target="_blank"><i class="fab fa-twitter fa-3x"></i> </a>
       </div>
     </footer>
-
-  
+    
+    <div id = "btns">
+    <button onclick="botFunction()" id="botBtn" title="Go to bottom"><i class="fa fa-chevron-down" aria-hidden="true"></i></button>  
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+    </div>
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

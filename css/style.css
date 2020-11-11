@@ -113,6 +113,11 @@ header a:hover{
   text-align: center;
 }
 
+/* Faders */
+.faders {
+  display : none;
+}
+
 
 /* Boxes */
 #boxes{
@@ -120,6 +125,7 @@ header a:hover{
 }
 
 #boxes .box{
+  display: none;
   float:left;
   text-align: center;
   width:32%;
@@ -166,7 +172,47 @@ footer{
   text-align: center;
 }
 
+/* Arrows */
 
+#botBtn {
+  /* display: none; Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  top: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #555; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#botBtn:hover {
+  background-color: red; /* Add a dark-grey background on hover */
+}
+
+#topBtn {
+  /* display: none; Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #555; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#topBtn:hover {
+  background-color: red; /* Add a dark-grey background on hover */
+}
 
 /* Media Queries */
 
